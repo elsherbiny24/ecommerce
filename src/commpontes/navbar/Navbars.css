@@ -1,0 +1,133 @@
+header{
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    margin-bottom: 60px;
+    z-index: 4444;
+    background-color: #fff;
+    padding: 0 120px;
+}
+header .contant{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+}
+
+header img{
+  width: 120px;
+}
+header .link{
+    color: #272728;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 0 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+header .boxs-icons .link{
+    text-decoration: none;
+    position: relative;
+    margin-right: 5px;
+
+}
+header .boxs-icons .link small{
+    position: absolute;
+    right: 2px;
+    height: 20px;
+    top: 0;
+    width: 20px;
+    border-radius: 50%;
+    background-color: #d32f2f;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header .boxs-icons .icon{
+    color: black;
+    margin: 0 10px;
+    font-size: 28px;
+    font-weight: 700;
+    text-decoration: none;
+}
+.nav .content .boxs-icons .icon-search{
+    cursor: pointer;
+}
+.nav .content .search-box{
+    position: absolute;
+    top: -100%;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: #fff;
+    width: 100%;
+    transition: .5s ease;
+}
+.search-box.serch{
+    top: 100%;
+    transition: .5s ease all;
+}
+.nav .content .search-box input{
+    padding: 20px;
+    border: none;
+    width: 100%;
+    font-size: 1rem;
+    color: #272728;
+    outline: none;
+    background-color: #f3f2ee;
+}
+.nav .content .search-box input::placeholder{
+    text-transform: capitalize;
+    font-size: 1rem;
+    font-weight: 500;
+}
+header .menu{
+    font-size: 20px;
+    cursor: pointer;
+    display: none;
+}
+@media (max-width:991px) {
+   header{
+    padding:0 60px;
+   }
+}
+@media (max-width:930px) {
+    header .menu{
+        display: block;
+    }
+   header .respon{
+    position: fixed;
+    width:100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    top: -500px;
+    bottom: 0;
+    left: 0;
+    transition: .7s ease all;
+   }
+   header .respon.response{
+    top: 70px;
+   }
+ }
+ @media (max-width:600px) {
+    header{
+     padding:10px 10px 0;
+    }
+    header .boxs-icons .icon{
+        color: black;
+        margin: 0 10px;
+        font-size: 22px;
+        font-weight: 700;
+        text-decoration: none;
+    }
+    header img{
+        width: 70px;
+      }
+ }
+   

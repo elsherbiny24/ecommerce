@@ -1,0 +1,114 @@
+.min-section-5{
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    padding-top: 70px;
+}
+.min-section-5 .container{
+    background-color: #ac8c5b;
+    border-radius: 20px;
+    height: 85vh;
+    width: 900px;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 40px;
+    flex-direction: column;
+}
+.min-section-5 .container h2{
+    color: #e9e7db;
+    z-index: 2;
+    margin-bottom: 20px;
+}
+.min-section-5 .container h2 span{
+   
+}
+.min-section-5 .container .span{
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+    border: #b99d75 70px solid;
+    background-color: transparent;
+    position: absolute;
+    top: -100px;
+    right: -90px;
+    
+}
+.min-section-5 .container .div{
+    background-color: #fff;
+    max-height: fit-content;
+    min-height: 60vh;
+    width: 750px;
+    border-radius: 20px;
+    z-index: 2;
+}
+.min-section-5 .container .div .col-img{
+    display: flex;
+    justify-content: flex-end;
+}
+.min-section-5 .container .div .chair{
+    width: 250px;
+}
+.min-section-5 .container .div .chair5{
+    margin-top: 100px;
+}
+.min-section-5 .container .div .chair4{
+    margin-top: 100px;
+}
+.min-section-5 .container .div .chair3{
+    margin-top: 50px;
+}
+.min-section-5 .container .div .chair2{
+    margin-top: 50px;
+}
+.min-section-5 .container .text .shap{
+  width: 320px;
+  height: 16px;
+  border-radius: 20px;
+  background-color: #e9e7db;
+  position: relative;
+ 
+}
+.min-section-5 .container .text .shap::after{
+    content: '';
+    width: 250px;
+   height: 16px;
+  border-radius: 20px;
+  position: absolute;
+  background-color: #fcc012;
+ 
+}
+.min-section-5 .container .swiper{
+    width: 750px;
+}
+.swiper-button-next{
+    color: #fcc012;
+    font-size: 4px;
+}
+.swiper-button-prev{
+    color: #fcc012;
+    font-size: 4px;
+}
+.swiper-pagination-bullet{
+    background: #fcc012;
+}
+.min-section-5 .container .text .link{
+    padding: 3px 15px;
+    background-color: #ac8c5b;
+    color: #fff;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: 300;
+    transition: .4s ease all;
+}
+.min-section-5 .container .text .link:hover{
+    background: transparent;
+    border: #fcc012 1px solid;
+    color: #fcc012;
+}
+.min-section-5 .container .text h4{
+    margin-top: 30px;
+}
+

@@ -1,0 +1,71 @@
+.blog{
+    background-color: #fff;
+    min-height: 80vh;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.blog h1{
+    text-transform: capitalize;
+    color: #000;
+    margin-left: 50px;
+    font-size: 33px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+.blog .row{
+    display: flex;
+    justify-content: center;
+}
+.blog .row .swiper{
+    width: 1000px;
+    padding-left: 15px;
+}
+.blog .box-parent{
+    height: 420px;
+    width: 310px;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: #f3f2ee;
+}
+.blog .box-parent:hover{
+    border: #222 1px solid;
+    cursor: pointer;
+}
+.blog .box-parent .img-box{
+    width: 270px;
+    height:210px;
+    border-radius: 20px;
+    justify-content: center;
+    background-image: url('../../aswetsss/1.png26.jpg');
+    background-size: cover;
+    background-repeat:no-repeat ;
+    background-position: center;
+    position: relative;
+}
+.blog .box-parent .img-box-2{
+    background-image: url('../../aswetsss/1.png27.jpg');
+}
+.blog .box-parent .img-box-3{
+    background-image: url('../../aswetsss/1.png28.jpg');
+}
+.blog .box-parent .img-box-4{
+    background-image: url('../../aswetsss/1.png29.jpg');
+}
+.blog .box-parent p{
+    margin-top: 30px;
+    color: #000;
+    font-weight: 600;
+    font-size: 15px;
+    border-bottom: #000 1px solid;
+    padding-bottom: 18px;
+    margin-bottom: 30px;
+}
+.blog .box-parent .link{
+    text-decoration:none;
+    text-transform: capitalize;
+    color: #888;
+}
+.blog .box-parent .link span{
+    margin-left: 5px;
+    font-size: 20px;
+}

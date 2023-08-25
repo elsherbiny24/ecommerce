@@ -1,0 +1,57 @@
+.foot{
+    min-height: 20vh;
+    width: 100%;
+    background-image: url("../../aswetsss/1.png21.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.foot .col-1{
+    display: flex;
+    margin-top: 30px;
+    justify-content: flex-end;
+}
+.foot .text h5{
+  font-weight: 700;
+  color: #000;
+}
+.foot .text p{
+    font-size: 12px;
+}
+.foot .col-1 .email{
+    position: relative;
+}
+.foot .col-1 .email input{
+    background-color: #fff;
+    padding: 8px;
+    height: 55px;
+    border-radius: 15px;
+    outline: none;
+    border: none;
+    width: 300px;
+    margin-left: 10px;
+}
+.foot .col-1 .email a{
+    text-decoration: none;
+    color: #000;
+    padding: 8px 20px;
+    border-radius: 10px;
+    background-color: #ffa500;
+    font-weight: 600;
+    text-transform: uppercase;
+    position: absolute;
+    right: 16px;
+    top: 9px;
+    font-size: 14px;
+}
+.foot .col-2{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 30px;
+}
+.foot .col-2 img{
+   width: 120px;
+   display: block;
+   margin-bottom: 15px;
+   border-radius: 10px;
+}

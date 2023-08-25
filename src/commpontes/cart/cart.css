@@ -1,0 +1,93 @@
+.embaty-cart{
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.embaty-cart h2{
+    display: flex;
+    align-items: center;
+    color: black;
+    font-weight: 600;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.embaty-cart .link{
+    text-transform: uppercase;
+    color: #bc8c5b;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+}
+.table{
+    
+    margin-top:50px ;
+
+}
+.table .tr{
+    background-color: #e9e7db;
+   
+}
+.table .tr .th1{
+    width: 180px;
+}
+.cart-item td{
+    margin-bottom: 15px;
+}
+.cart-item .img-box{
+    width: 200px;
+    height: 100px;
+}
+.cart-item .img-box img{
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    margin-right:20px ;
+}
+.cart-item .td2{
+    width: 360px;
+   
+}
+.cart-item .detail h4{
+    font-size: 20px;
+}
+.cart-item .detail .icon{
+    color: #faaf00;
+}
+.cart-item .detail h5{
+    font-size: 16px;
+}
+.cart-item .td-3{
+    display: flex;
+    align-items: center;
+   
+    width: 198px;
+    
+}
+.cart-item .td-3 button{
+    outline: none;
+    border: none;
+    color: #bc8c5b;
+    font-size: 30px;
+}
+.cart-item .td-3 h4{
+    margin: 0 15px;
+}
+.cart-item .td-4{
+    width: 215px;
+}
+.cart-item .td-4 p{
+  margin-bottom: 50px;
+}
+.cart-item .td5 button{
+    border: none;
+    outline: none;
+    color: #666;
+    font-size: 20px;
+    margin-bottom: 60px;
+}
+.cart-item .td5 button:hover{
+    color: red;
+}

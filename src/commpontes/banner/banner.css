@@ -1,0 +1,44 @@
+.banner{
+    width: 100%;
+    height: 230px;
+    background-image: url('../../aswetsss/1.png02.jpeg');
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    object-fit: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:40px;
+}
+.banner .about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.banner .about .links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.banner .about h1{
+    color: #fff;
+    margin-bottom: 0px;
+}
+.banner .about .links .link{
+    color:#fff ;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-right: 10px;
+}
+.banner .about .links  .p{
+    color: #ac8c5b;
+    font-size: 18px;
+    cursor: pointer;
+    text-transform: capitalize;
+    margin-top: 16px;
+   
+}

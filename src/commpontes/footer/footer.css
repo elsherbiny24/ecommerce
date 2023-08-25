@@ -1,0 +1,107 @@
+footer{
+    min-height: 60vh;
+    width: 100%;
+    background-image: url('../../aswetsss/1.png12.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 70px;
+}
+footer h5{
+    color: #fff;
+    position: relative;
+    margin-bottom: 20px;
+}
+footer h5::after{
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 50px;
+    background-color: #808080;
+    bottom: -5px;
+    left: 3px;
+}
+footer .col-1 .p{
+    color: #808080;
+    font-size: 10px;
+    margin-bottom: 20px;
+}
+footer .col-1 h6{
+    color: #fff;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+footer .col-1 h6 span{
+    color: #ffff00;
+    margin-right: 10px;
+    font-size: 17px;
+}
+footer .col-2 .table img{
+    width: 120px;
+    padding-top: 20px;
+    padding-left: 15px;
+}
+footer .col-2{
+   
+    
+   margin-top: -60px;
+   margin-left: -80px;
+  
+    
+    padding: 10px;
+}
+footer .col-2 .table{
+    border: 1px solid #808080;
+    max-width: 500px;
+    height: 170px;
+    border-radius: 10px;
+}
+footer .col-2 .table .icons{
+    display: flex;
+    margin-left: 8px;
+    margin-top: 25px;
+    margin-bottom: 5px;
+}
+footer .col-2 .table .icons .icon{
+    color: #ffa500;
+    margin-right: 20px;
+    cursor: pointer;
+    font-size: 20px;
+}
+footer .col-2 .table .icons h6{
+    color: #808080;
+    font-size: 14px;
+    margin-right:14px;
+}
+footer .col-2 .table .pp{
+    display: flex;
+    align-items: center;
+}
+footer .col-2 .table .pp p{
+    margin-right: 5px;
+    text-transform: capitalize;
+    cursor: pointer;
+    padding: 4px 8px;
+    border-radius: 5px;
+    font-size: 13px;
+    color: #808080;
+}
+footer .col-2 .table .pp p:hover{
+    background-color: #060a0d;
+}
+footer .col-3{
+    margin-left: 20px;
+}
+footer .col-3 ul li{
+    list-style: none;
+    color: #808080;
+    cursor: pointer;
+   
+    
+    border-radius: 5px;
+    font-size: 12px;
+    margin-bottom: 15px;
+   
+}

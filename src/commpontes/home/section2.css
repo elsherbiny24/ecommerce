@@ -1,0 +1,32 @@
+.min-sec-2{
+    min-height: 180px;
+    width: 100%;
+    padding-top: 30px;
+
+}
+.min-sec-2 .row{
+    border-bottom: #242323 solid 1px;
+    padding-bottom: 30px;
+}
+.min-sec-2 .boxs-icons{
+    display: flex;
+   
+}
+.min-sec-2 .boxs-icons .icon{
+    font-size: 40px;
+    color: #ac8c5b;
+    margin-top: 20px;
+    font-weight: 700;
+}
+.min-sec-2 .boxs-icons .shopping-box{
+    margin-left: 20px;
+}
+.min-sec-2 .boxs-icons .shopping-box h5{
+    color: #000;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.min-sec-2 .boxs-icons .shopping-box p{
+    color: #666664;
+    font-size: 14px;
+}

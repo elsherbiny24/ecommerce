@@ -1,0 +1,157 @@
+.shop-product{
+    background-color: #fff;
+    min-height: 100vh;
+    width: 100%;
+    padding: 60px 0;
+    display: flex;
+    justify-content: center;
+}
+.shop-product .content{
+ max-width: 1000px;
+}
+.shop-product .content .search{
+    min-height: 70px;
+    padding: 20px;
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.shop-product .content .search .div-search{
+    max-width: 270px;
+    position: relative;
+    max-height: 50px;
+}
+.shop-product .content .search .div-search .icon-search{
+    position: absolute;
+    color: #000;
+    font-size: 20px;
+    right: 15px;
+    cursor: pointer;
+    top:12px
+}
+.shop-product .content .search .search-input{
+    height: 45px;
+    padding: 15px;
+    outline: none;
+    border: #000 solid 1px;
+    border-radius: 15px;
+    width: 270px;
+}
+.shop-product .content .search .search-input:focus{
+    border: #000 solid 2px;
+}
+.shop-product .boxs-items{
+    height: 320px;
+    border-radius: 20px;
+    width: 240px;
+    position: relative;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   margin-bottom: 20px;
+   background-color: #f3f2ee;
+   cursor: pointer;
+}
+.shop-product .boxs-items .heart{
+    color: #808080;
+    font-size: 22px;
+    position: absolute;
+    top: 13px;
+    right: 19px;
+}
+.shop-product .boxs-items .heart.togle-red{
+    color: red;
+}
+.shop-product .boxs-items .span-1{
+    position: absolute;
+    top: 15px;
+    left: 30px;
+    color: #000;
+    font-weight: 600;
+}
+.shop-product .boxs-items .span-1 small{
+    text-decoration: line-through;
+    margin-right: 8px;
+    font-size: 13px;
+    color: #808080;
+    font-weight: 400;
+}
+.shop-product .boxs-items:hover{
+    border: 1px solid #000;
+}
+.shop-product .item-imgs .img{
+    width: 170px;
+   height: 160px;
+   background-color: #fff;
+   object-fit: contain;
+   border-radius: 20px;
+   padding: 20px 10;
+   position: relative;
+}
+.shop-product .item-imgs span{
+    font-size: 13px;
+    position: absolute;
+    padding: 4px 6px;
+    background-color: #ac8c5b;
+    border-radius: 5px;
+    color: #fff;
+    z-index: 2;
+}
+.shop-product .item-text .bttn{
+    border: none;
+    cursor: pointer;
+    outline: none;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    color: #757575;
+    position: absolute;
+    bottom: 10px;
+    right: 25px;
+}
+.shop-product .item-text{
+    text-align: center;
+}
+.shop-product .item-text .bttn .icon{
+    font-size: 25px;
+ 
+}
+.shop-product .item-text .bttn:hover{
+    color: #ac8c5b;
+    border: #ac8c5b 1px solid;
+}
+.shop-product .item-text .icons{
+    display: flex;
+    align-items: center;
+}
+.shop-product .item-text .icons .icon{
+    color: #faaf00;
+}
+.shop-product .item-text h5{
+    font-size: 16px;
+    color: #000;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin: 15px 0;
+}
+.shop-product .content .div-pagint{
+    min-height: 60px;
+    width:250px;
+    display: flex;
+}
+.shop-product .content .div-pagint .pagnation{
+ list-style: none;
+ display: flex;
+
+}
+.shop-product .content .div-pagint .pagnation .page-item{
+margin-right: 20px;
+}
+.shop-product .content .div-pagint .pagnation .page-item .page-link{
+    display: flex;
+    border-radius: 50%;
+    margin-bottom: 5px;
+}
+
+  

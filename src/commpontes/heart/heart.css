@@ -1,0 +1,99 @@
+.hearts{
+    min-height: 260px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.hearts h1{
+    color: red;
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+.hearts h2{
+    color: black;
+    font-weight: 500;
+    font-size: 35px;
+}
+.favourite{
+    padding-top: 60px;
+    display: flex;
+    justify-content: center;
+}
+.favourite .content-heart{
+    max-width: 850px;
+}
+.favourite .content-heart .favrout-row{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.favourite .product-heart{
+    overflow: hidden;
+    border-radius: 20px;
+    height: 320px;
+    width: 240px;
+    position: relative;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   margin-bottom: 20px;
+   background-color: #f3f2ee;
+   cursor: pointer;
+   margin-right: 15px;
+}
+.favourite .product-heart:hover {
+    border: 1px solid #000;
+   
+}
+.favourite .product-heart .pro-heart{
+    position: absolute;
+    color: red;
+    font-size: 22px;
+    top: 15px;
+    right: 14px;
+}
+.favourite .product-heart .img-heart{
+    width: 180px;
+    height: 150px;
+    object-fit: contain;
+    margin-bottom: 20px;
+}
+.favourite .product-heart .heart-start{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.favourite .product-heart .heart-start .icon-heart{
+    color: #faaf00;
+}
+.favourite .product-heart .heart-text h6{
+    color: #000;
+    font-weight: 600;
+}
+.favourite .product-heart .heart-text p{
+    margin-left: 35px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.favourite .product-heart .heart-text .a{
+    padding: 8px 18px;
+    color: #fff;
+    background-color: #ac8c5b;
+    border-radius: 20px;
+    text-decoration: none;
+    margin-left: 0px;
+    position: absolute;
+    transition: .5s all ease;
+    bottom: -40px;
+}
+.favourite .product-heart:hover .a{
+    bottom: 8px;
+}
+.favourite .product-heart .heart-text .a:hover{
+    color: #ac8c5b;
+    border: #ac8c5b 1px solid;
+    background-color: transparent;
+}

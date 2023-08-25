@@ -1,0 +1,119 @@
+.min-section-4{
+    min-height: 100vh;
+    width: 100%;
+    padding: 50px 0;
+    background-color: #fff;
+}
+.min-section-4 h1{
+    color: #000;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.min-section-4 .boxs-imges{
+    display: flex;
+    flex-wrap: wrap;
+}
+.min-section-4 .img1{
+    height: 290px;
+    width: 210px;
+    max-width: initial;
+    background-image: url('../../aswetsss/1.png07.jpg');
+    background-size: cover;
+    object-fit: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    padding: 20px;
+}
+.min-section-4 .img2{
+    max-width: initial;
+    width: 350px;
+    height: 290px;
+    background-image:url('../../aswetsss/1.png08.jpg');
+    background-size: cover;
+    object-fit: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+    padding: 20px;
+}
+.min-section-4 .img3{
+    max-width: initial;
+    width: 350px;
+    height: 290px;
+    background-image:url('../../aswetsss/1.png10.jpg');
+    background-size: cover;
+    object-fit: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    margin-right: 20px;
+    padding: 20px;
+    margin-bottom: 30px;
+    
+}
+.min-section-4 .img4{
+    height: 290px;
+    max-width: initial;
+    width: 210px;
+    background-image: url('../../aswetsss/1.png11.jpg');
+    background-size: cover;
+    object-fit: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+.min-section-4 .imaeg{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.min-section-4 .imaeg div{
+    width: 170px;
+    height: 100px;
+    background-color: #fff;
+    border-radius: 14px;
+    padding: 8px 10px;
+    text-align: center;
+}
+.min-section-4 .imaeg .div2{
+    width: 250px;
+}
+.min-section-4 .imaeg h5{
+  color: #000;
+  font-size: 14px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+.min-section-4 .imaeg h6{
+    font-size: 12px;
+    color: #8c8280;
+}
+.min-section-4 .imaeg h6 span{
+    color: #ac8c5b;
+}
+.min-section-4 .imaeg .link{
+    font-size: 14px;
+    text-decoration: underline;
+    color: #8c8280;
+}
+.min-section-4 .img5{
+    height: 610px;
+    max-width: initial;
+    width: 430px;
+    background-image: url('../../aswetsss/1.png09.jpg');
+    background-size: cover;
+    object-fit: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    padding: 20px;
+}
+.min-section-4 .img5 .div3{
+    width: 300px;
+}

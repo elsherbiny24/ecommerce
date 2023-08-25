@@ -1,0 +1,121 @@
+.blog{
+    min-height: 100vh;
+    background-color: #fff;
+}
+.blog .box-parent{
+    height: 420px;
+    width: 310px;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: #f3f2ee;
+    margin-bottom: 25px;
+}
+.blog .box-parent:hover{
+    border: #222 1px solid;
+    cursor: pointer;
+}
+.blog .box-parent .img-box{
+    width: 270px;
+    height:210px;
+    border-radius: 20px;
+    justify-content: center;
+    background-image: url('../../aswetsss/1.png26.jpg');
+    background-size: cover;
+    background-repeat:no-repeat ;
+    background-position: center;
+    position: relative;
+}
+.blog .box-parent .img-box-2{
+    background-image: url('../../aswetsss/1.png27.jpg');
+}
+.blog .box-parent .img-box-3{
+    background-image: url('../../aswetsss/1.png28.jpg');
+}
+.blog .box-parent .img-box-4{
+    background-image: url('../../aswetsss/1.png29.jpg');
+}
+.blog .box-parent .link:hover{
+    color: #000;
+}
+.blog .box-form{
+    height: 390px;
+    width: 330px;
+    border-radius: 20px;
+    border: #000 1px solid;
+   padding-top: 15px;
+   padding-left: 10px;
+}
+.blog .box-form h5{
+    color: #000;
+    margin-bottom: 15px;
+    font-weight: 600;
+    border-bottom:1px solid #615d5d ;
+    padding-bottom: 15px;
+}
+.blog .box-form .images-box{
+    display: flex;
+    margin-bottom: 20px;
+}
+.blog .box-form .images-box img{
+    width: 70px;
+    height: 70px;
+    margin-right: 15px;
+}
+.blog .box-form .images-box p{
+    text-decoration: underline;
+    color: #000;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.blog .box-form .images-box h6{
+    color: #d8d8d8;
+    font-size: 12px;
+    margin-top: -7px;
+}
+.blog .box-form .images-box h6 span{
+    margin-right: 5px;
+    margin-top: -9px;
+}
+.blog .box-form-2{
+    height: 200px;
+    border: #000 1px solid;
+    padding: 9px;
+    width: 330px;
+    border-radius: 20px;
+    margin-top: -40px;
+}
+.blog .box-form-2 h5{
+    color: #000;
+    margin-bottom: 15px;
+    font-weight: 600;
+    border-bottom:1px solid #615d5d ;
+    padding-bottom: 15px;
+}
+.blog .box-form-2 .span{
+    margin-bottom: 15px;
+}
+.blog .box-form-2 span{
+    margin-right: 10px;
+    padding: 4px 8px;
+    border-radius: 8px;
+    cursor: pointer;
+    color: #000;
+    background-color: #F6FAFD;
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: 700;
+}
+.blog .box-form-2 .pp{
+    display: flex;
+}
+.blog .box-form-2 .pp p{
+    margin-right: 10px;
+    color: #000;
+    background-color: #F6FAFD;
+    padding: 4px 8px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: 600;
+}

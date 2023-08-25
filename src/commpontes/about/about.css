@@ -1,0 +1,200 @@
+.about-1{
+    min-height: 35vh;
+    padding-top: 70px;
+   background-color: #fff;
+}
+.about-1 .text{
+  margin-bottom: 30px;
+}
+.about-1 .text h5{
+    color: #000;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.about-1 .text .icon{
+    font-size: 38px;
+    margin-left: 15px;
+    color: #ac8c5b;
+    margin-bottom: 20px;
+}
+.about-1 .text p{
+    font-size: 12px;
+    color: #808080;
+}
+.about-2{
+    min-height: 100vh;
+    width: 100%;
+    padding-top: 60px;
+    padding-bottom: 20px;
+    background-color: #fff;
+}
+.about-2 .boxs-imges{
+    display: flex; 
+    flex-wrap: wrap;
+}
+.about-2 .img-1{
+    height: 310px;
+    width: 210px;
+    border-radius: 20px;
+    margin-right: 40px;
+    background-image: url('../../aswetsss/11.png01.jpg');
+    background-size: cover;
+    background-position: center;
+   
+}
+.about-2 .img-2{
+    height: 430px;
+    width: 210px;
+    border-radius: 20px;
+    background-image: url('../../aswetsss/12.png02.jpg');
+    background-size: cover;
+    background-position: center;
+    margin-top: 60px;
+}
+.about-2 .img-3{
+    height: 250px;
+    width: 210px;
+    border-radius: 20px;
+    background-image: url('../../aswetsss/13.png03 (1).jpg');
+    background-size: cover;
+    background-position: center;
+    margin-top: -150px;
+    margin-right: 40px;
+    
+}
+.about-2 .img-4{
+    height: 60px;
+    width: 210px;
+    border-radius: 20px;
+    background-image: url('../../aswetsss/14.png04 (1).jpg');
+    background-size: cover;
+    background-position: center;
+    margin-top: 35px;
+}
+.about-2 .box-text h6{
+    color: #808080;
+    margin-bottom: 25px;
+}
+.about-2 .box-text h2{
+    color: #000;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.about-2 .box-text .p{
+    color: #808080;
+    font-size: 12px;
+    margin-bottom: 60px;
+}
+.about-2 .box-text .box-icon{
+    display: flex;
+    margin: 25px 0;
+}
+.about-2 .box-text .box-icon p{
+    color: #808080;
+    font-size: 12px;
+}
+.about-2 .box-text .box-icon .icon{
+    color: #ac8c5b;
+    font-size: 30px;
+    margin-right: 20px;
+}
+.about-3{
+    min-height: 100vh;
+    width: 100%;
+    background-image: url('../../aswetsss/1.png1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.about-3 h1{
+    text-align: center;
+    margin-bottom: 50px;
+    padding-top: 150px;
+    font-weight: 600;
+}
+.about-3 .boxs{
+    text-align: center;
+    position: relative;
+}
+.about-3 .boxs p{
+    font-size: 12px;
+    color: #808080;
+}
+.about-3 .boxs .icon{
+    color: #ac8c5b;
+    font-size: 35px;
+    object-fit: contain;
+    margin-bottom: 20px;
+}
+.about-3 .boxs h5{
+    font-weight: 600;
+    color: #000;
+}
+.about-3 .boxs span{
+    color: #fff;
+    padding: 4px 8px;
+    border-radius: 50%;
+    background-color: #9c27b0;
+    position: absolute;
+    top: 0;
+    right: 90px;
+    font-size: 13px;
+   
+}
+.customer{
+    min-height: 70vh;
+    background-color: #fff;
+    padding-top: 50px;
+}
+.customer h1{
+    text-align: center;
+    margin-bottom: 35px;
+    font-weight: 600;
+    color: #000;
+}
+.customer .customer-1{
+    display: flex;
+    justify-content: center;
+}
+.customer .customer-1 .swiper{
+    width: 960px;
+    
+}
+.customer .custom{
+    height: 240px;
+    width: 290px;
+    background-color: #f3f2ee;
+    padding: 15px;
+    border-radius: 20px;
+}
+.customer .custom:hover{
+    border: #000 1px solid;
+    cursor: pointer;
+}
+.customer .custom .person img{
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 25px;
+}
+.customer .custom .person span{
+    color: #000;
+    font-weight: 600;
+    text-transform: capitalize;
+    padding: 8px 5px;
+    border-radius: 10px;
+   
+    cursor: pointer;
+}
+.customer .custom .person span:hover{
+    background-color: #e9e7db;
+}
+.customer .custom p{
+    font-size: 13px;
+    color: #808080;
+    margin-bottom: 28px;
+    margin-top: 20px;
+}
